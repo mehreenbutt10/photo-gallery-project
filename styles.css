@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 500px;
+  width: 425px;
+  object-fit: cover;
+  padding: 6px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.header{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding-bottom: 40px;
+  margin-bottom: 6px;
+  background-color: red;
+}
+p {
+  margin-left: 390px;
+}
